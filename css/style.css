@@ -1,0 +1,310 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+                                /* Global, can be put anywhere*/
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+.button_1{
+  height:38px;
+  background:#e8491d;
+  border:0;
+  padding-left:20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#2c3e50;
+  color:#ffffff;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+                                /* Header*/
+ header{
+   background:#2c3e50;
+   color:#ffffff;
+   padding-top:30px;
+   min-height:70px;
+   border-bottom:#e8491d 3px solid;
+ }
+
+
+ header a{
+   color:#ffffff
+   text-decorration:none;
+   text-transform: uppercase;
+   font-size:16px;
+ }
+
+
+ header li{
+   float:left;
+   display:inline;
+   padding:0 20px 0 20px;
+ }
+
+
+header #branding{
+    float:left;
+}
+
+
+header#branding h1{
+    margin:0;
+}
+
+
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+
+header .highlight, header .current a{
+    color:#e8491d;
+    font-weight:bold;
+}
+
+
+header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+}
+
+        /* Showcase put the image that displays on website index here */
+#showcase{
+  min-height:400px;
+  background:url('../images/controllers.jpg') no-repeat 0 -9px;
+  text-align: center;
+  color:#ffffff;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:25px;
+}
+
+        /*Showcase for image on display for reviews page here*/
+#showcase reviews{
+  min-height:400px;
+  background:url('../images/Best games.png') no-repeat 0 -900px;
+  text-align:center;
+  color:#ffffff;    
+}
+
+#showcase reviews h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+
+
+
+
+
+
+                                /*newsletter*/
+
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#2c3e50;
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:15px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:24px;
+  width:250px;
+}
+
+                                                            /* Search Button on Reviews Page */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #2c3e50;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #2c3e50;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #bdc3c7;
+  background: ;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+                       /*Resize the wrap to see the search bar change! this is the search bar*/
+.wrap{
+  width: 20%;
+  position: absolute;
+  top: 20%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+}
+     
+                                /*The hover bar for the games, pc and console with options for xbox, ps4 and nintendo*/ 
+.hover 
+div container {background-color: #2c3e50;}
+  div a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    display:inline-block;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #ffffff;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #ffffff; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #ffffff;}
+
+
+
+
+
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:55px;
+}
+
+/*Sidebar*/
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+}
+
+aside#sidebar .quote input, aside#sidebar .quote textarea{
+  width:90%;
+  padding:5px;
+}
+
+/*Main-col*/
+article#main-col{
+  float:left;
+  width:65%;
+}
+
+/* Services*/
+ul#services li{
+  list-style: none;
+  padding:20px;
+  border: #cccccc solid 1px;
+  margin-bottom:5px;
+  background:#e6e6e6;
+}
+
+
+/*Media Queries aka change screen depending on mobile, pc */
+@media(max-width: 768px){
+  header #bradning,
+  header nav,
+  header nav li.
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+header{
+  padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button, .quote button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"], .quote input, .quote textarea{
+    width:100%;
+    margin-bottom:5px;
+  }
+}
